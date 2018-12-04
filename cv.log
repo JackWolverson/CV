@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (MiKTeX 2.9.6630 64-bit)  (format=lualatex 2018.7.23)  28 SEP 2018 10:18
+This is LuaTeX, Version 1.07.0 (MiKTeX 2.9.6630 64-bit)  (format=lualatex 2018.7.23)  4 DEC 2018 11:58
  restricted system commands enabled.
 **cv.tex
 (./cv.tex
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 1.031 seconds
+luaotfload | main : initialization completed in 1.019 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (./friggeri-cv.cls
 Document Class: friggeri-cv 2012/04/30 CV class
@@ -1828,13 +1828,13 @@ Here is how much of LuaTeX's memory you used:
  1420 words of node memory still in use:
    22 hlist, 1 vlist, 10 rule, 24 glue, 111 attribute, 57 glue_spec, 91 attribut
 e_list, 1 write, 39 pdf_literal, 3 pdf_action, 18 pdf_colorstack nodes
-   avail lists: 2:1641,3:206,4:201,5:281,6:57,7:2392,8:30,9:302,10:8,11:131
+   avail lists: 2:1641,3:206,4:201,5:280,6:57,7:2397,8:30,9:302,10:8,11:132
  42696 multiletter control sequences out of 65536+200000
- 71 fonts using 18201319 bytes
+ 71 fonts using 18201439 bytes
  73i,9n,87p,988b,740s stack positions out of 5000i,500n,10000p,200000b,50000s
 <./texgyreheros-italic.otf><./texgyreheros-bold.otf><./texgyreheros-regular.otf>
 <./Lato-Hairline.ttf>
-Output written on cv.pdf (2 pages, 41778 bytes).
+Output written on cv.pdf (2 pages, 41768 bytes).
 
 PDF statistics: 88 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 131072)
