@@ -1,4 +1,4 @@
-%!TEX TS-program = xelatex
+%!TEX TS-program = lualatex
 \documentclass[]{friggeri-cv}
 \usepackage{afterpage}
 \usepackage{hyperref}
@@ -33,7 +33,7 @@
 
 \begin{document}
 \header{Jack}{Wolverson}
-      {Computer Science Graduate}
+      {Data Engineer}
       
 % Fake text to add separator      
 \fcolorbox{white}{gray}{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{%
@@ -58,18 +58,13 @@
     \href{https://www.linkedin.com/in/jack-wolverson/}{linkedin.com/in/jack-wolverson}
     ~
   % use  \hspace{} or \vspace{} to change bubble size, if needed
-  \section{Programming}
-    \textbf{Java}\includegraphics[scale=0.40]{img/5stars.png}
-    \textbf{Python}\includegraphics[scale=0.40]{img/5stars.png}
-    \LaTeX \includegraphics[scale=0.40]{img/4stars.png}
-    \textbf{R}\includegraphics[scale=0.40]{img/3stars.png}
-    \textbf{Swift}\includegraphics[scale=0.40]{img/3stars.png}
-    \textbf{C\#}\includegraphics[scale=0.40]{img/3stars.png}
-    \textbf{HTML}\includegraphics[scale=0.40]{img/3stars.png}
-    \textbf{CSS}\includegraphics[scale=0.40]{img/3stars.png}
-    \textbf{Javascript}\includegraphics[scale=0.40]{img/3stars.png}
-    \textbf{SQL}\includegraphics[scale=0.40]{img/3stars.png}    
-    \textbf{F\#}\includegraphics[scale=0.40]{img/2stars.png}
+  \section{Programming \& Software}
+    \textbf{SQL}\includegraphics[scale=0.40]{img/5stars.png}
+    \textbf{DBT}\includegraphics[scale=0.40]{img/5stars.png}
+    \textbf{Kafka}\includegraphics[scale=0.40]{img/4stars.png}
+    \textbf{Python}\includegraphics[scale=0.40]{img/4stars.png}
+    \textbf{Talend}\includegraphics[scale=0.40]{img/3stars.png}
+    \textbf{Tableau}\includegraphics[scale=0.40]{img/3stars.png}
     ~
   \section{Personal Skills}
     \textbf{Problem Solving}
@@ -80,94 +75,43 @@
 \end{aside}
 ~
 \section{Personal Statement}
-A skilled student who has just graduated from studying computer science at Birmingham City
-University. Highly motivated in learning new skills in computing and the surrounding areas. Mainly
-looking for an app development or software engineering role. I work great in a team and have great time
-management skills. I also have the ability to handle multiple projects at a time and remain calm under pressure.
+A Data Engineer with 5 years experience working on a variety of projects and technologies.  
+
+\section{Experience}
+\begin{entrylist}
+  \entry
+  {2019 - Now}
+  {Data Engineer}
+  {Sidetrade}
+  { At sidetrade I worked on a variety of projects including the analytics module powered by talend and tableau. 
+  More recently have been a key member of the datalake squad, building a near real time solution using: kafka, dbt and greenplum to provide key insights displayed in a BI tool. 
+  During my time here, i also helped run our code academy training candiadates on SQL to help them build a full stack project that would be demoed back at the end of the 4 week course
+  \\Summary:  
+  \begin{itemize}
+    \item Worked on a near real time datalake powered by kafka with transformation handled by dbt 
+    \item Worked on improving our analytics module 
+    \item Taught on the Sidetrade Code Academy 
+  \end{itemize}}
+  \\
+  \entry
+  {2016 - 2019}
+  {Front of House - Bar Staff}
+  {The Crown,Four Oaks}
+
+\end{entrylist}
+
 \section{Education}
+
 \begin{entrylist}
   \entry
     {2015 - 2018}
     {First Class Honours Degree in Computer Science}
     {Birmingham City University}
-    {Main modules are: Artificial Intelligence and Machine Learning, App Development for iOS and Android, Software development, Data Analysis, and Several Different Programming Modules Covering Many Languages.\\ My Final Year Honours Project Focused on Machine Learning in Sports Prediction. \\ A Full List of Modules Can Be Provided With Results.\\}
-  \entry
-    {2013 - 2015}
-    {A Levels}
-    {The Arthur Terry Sixth Form}
-    {IT - D,\\ Maths - D,\\ Physics - D,\\ Business Studies(AS) - D.\\}
-  \entry
-    {2008 - 2013}
-    {GCSE}
-    {The Arthur Terry School}
-    {8 GCSE's A-C}
+    {Main modules are: Artificial Intelligence and Machine Learning, App Development for iOS and Android, Software development, Data Analysis, and Several Different Programming Modules Covering Many Languages.
+    \\ My Final Year Honours Project Focused on Machine Learning in Sports Prediction. 
+    \\ A Full List of Modules Can Be Provided With Results.\\}
 \end{entrylist}
 \\
-\section{Experience}
-\begin{entrylist}
-  \entry
-    {01/16 - Now}
-    {Front of House - Bar Staff}
-    {The Crown,Four Oaks}
-    {\begin{itemize}
-    	\item Customers and handle cash.
-    	\item Restock bar at the end of the night.
-    	\item  Clean the bar ready for the next day.
-    \end{itemize}}
-  \entry
-    {06/11 - 06/11}
-    {IT Technician - Work Experience }
-    {The Arthur Terry School}
-    {\begin{itemize}
-    	\item Fix and upgrade various devices.
-    	\item Help a primary school with a transition to a new system.
-    	\item Manage and maintain the network.
-    \end{itemize}}
-\end{entrylist}
-\newpage
-
-\begin{aside}
-~
-~
-~
-  \section{OS Preference}
-    \textbf{Windows}\includegraphics[scale=0.40]{img/5stars.png}
-    \textbf{MacOS}\includegraphics[scale=0.40]{img/4stars.png}
-    \textbf{GNU/Linux}\includegraphics[scale=0.40]{img/3stars.png}
-    \textbf{Unix}\includegraphics[scale=0.40]{img/3stars.png}
-    ~
-  \section{Software}
-\textbf{Microsoft Office}
-\textbf{IntelliJ}
-\textbf{PyCharm}
-\textbf{Jupyter Notebook}
-\textbf{Affinity Designer}
-\textbf{Affinity Photo}
-\textbf{Xcode}
-\textbf{Android Studio}
-\textbf{Xamarin}
-\textbf{Cisco IOS CLI}
-\textbf{Visual Studio}
-\textbf{Amazon Web Services}
-	~
-\end{aside}
-
-\section{Hobbies}
-I have many interests surrounding science and technology as you can tell from my choices in
-education. As well as trying to gain a wide variety of skills both in education and out. Another interest
-of mine is gaming which I do in my spare time when I'm not studying. Other interests of mine include
-cooking, fashion and modern art. I used to play ultimate Frisbee one of the world's fastest growing
-sports. I also follow the NFL, which I am so into I have been to Wembley to see it live multiple times
-and plan on going to see it again.
-\\
-\section{Certifications}
-\begin{entrylist}
-  \entry
-    {08/2014}
-    {LFS101x: Introduction to Linux}
-    {edX. E-learning}
-    {\emph{edX Honor Code Certificate for Introduction to Linux}}
-\end{entrylist}
 
 \section{References}
 References Available Upon Request
